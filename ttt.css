@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(176, 38, 255), rgb(255, 16, 240));
+}
+section{
+    text-align: center;
+    background-color: #000000;
+    color: rgb(255, 16, 240);
+    font-family: Helvetica;
+    padding: 20px 60px;
+    margin: auto;
+    height: fit-content;
+    width:fit-content;
+    box-shadow: 0 0 10px #fff, 0 0 30px #ff69d2, 0 0 40px #ff69d2, 0 0 50px #ff69d2;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 20px auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border:1px solid #ffffff;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 64px;
+}
+.box:hover{ 
+    border: 1px solid rgb(255, 16, 240);
+}
+.box {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32pt;
+}
+h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32pt;
+    top: -20px;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 30px #0AA6E3, 0 0 40px #0AA6E3;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 30px #ff69d2, 0 0 40px #ff69d2, 0 0 50px #ff69d2;
+    }
+}
