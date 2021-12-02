@@ -33,8 +33,7 @@ function playerChange(){
     currentPlayer = 'O';
   } else {
     currentPlayer = 'X';
-  }
-  
+  }  
   playerTurn.innerHTML = currentPlayer + "'s turn";
 }
 

@@ -24,8 +24,8 @@ body{
 
 @keyframes neon1 {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+      text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff1177,
+        0 0 60px #ff1177, 0 0 70px #ff1177, 0 0 90px #ff1177, 0 0 140px #ff1177;
     }
     to {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
@@ -35,8 +35,8 @@ body{
 
   @keyframes neon2 {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #8011ff,
-        0 0 70px #8011ff, 0 0 80px #8011ff, 0 0 100px #8011ff, 0 0 150px #8011ff;
+      text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8011ff,
+        0 0 60px #8011ff, 0 0 70px #8011ff, 0 0 90px #8011ff, 0 0 140px #8011ff;
     }
     to {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #8011ff,
